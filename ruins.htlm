@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>landscapes</title> 
+ <style>
+  div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 1000px;
+  border: none;
+  background-color: #D3D3D3;
+  opacity: .80;
+}
+body { 
+background-image: url("https://alexisewood.github.io/landscapes/ruins.gif"); 
+ background-repeat:no-repeat; 
+ background-size: 100% auto; 
+}   
+</style> 
+</head> 
+<body> 
+ <h2>&nbsp;&nbsp; July 26th, 2018 | Grand Coulee Blvd, Shasta Lake, CA. </h2>
+
+<p></p>
+
+<div class="fixed">
+&nbsp;&nbsp;<a href="https://alexisewood.github.io/landscapes/orangecampus.html"> moving box </a>
+&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://alexisewood.github.io/landscapes/seashore.html"> my neighbor </a>
+&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://alexisewood.github.io/landscapes/orangecampus.html"> cal move-in day instructions </a>
+&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://alexisewood.github.io/landscapes/orangecampus.html"> a final good-bye letter (unreciprocated) </a>
+&nbsp;&nbsp;|&nbsp;&nbsp; alexis e. wood, 2023
+
+ 
+</body> 
+</html>
