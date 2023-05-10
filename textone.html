@@ -6,8 +6,30 @@
          background-color: #282828;
       } 
       p {color: #33FF00; font-family: 'Courier New', monospace; 
+         .box p::after {
+  content: "";
+  width: 5px;
+  height: 20px;
+  background: #33ff00;
+  display: inline-block;
+}
+
+@keyframes cursor-blink {
+  0% {
+    opacity: 0;
+  }
+}
+
+.box p::after {
+    animation: cursor-blink 1.5s steps(2) infinite;
+}
       }
    </style>
+   <div class="container">
+  <span class="box">
+    <p>hello world ...</p>
+  </span>
+</div>
    <p> “Space is not a collection of pre-existing points set out in a fixed geometry, a container, as it were, for matter to inhabit. Matter isn’t situated in the world; matter is worlding in its materiality.” 
 (Barad, 2007: 180-181) <br> <br> <br>
    I spent one evening this summer speaking to a Computer Science lecturer visiting from a university in Ireland. <br><br> 
@@ -21,7 +43,10 @@
 
 In thinking about space, I think of breath, and in thinking about the breath, I think of space. <br><br>  
      With every breath - deep, held, staggered, eupneic - we express our lived spatialities and engage with space, but we also fundamentally change the chemical composition around us. <br> <br> 
-      There is a deeply intimate co-creation happening at our very lips. Just as simple as existing, we create and are created. <br> <br> <br> <br> <br> <br> <br> ... <a href="alexisewood.github.io/landscapes/index.html"> exit </a> </p>
+      There is a deeply intimate co-creation happening at our very lips. Just as simple as existing, we create and are created.</p> <br> <br> <br> <br> <br> <br> <br> 
+  
+   
+   <h1> <a href="alexisewood.github.io/landscapes/index.html"> exit </a> </h1>
    
 </head>
 <body>
